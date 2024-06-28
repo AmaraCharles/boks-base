@@ -56,7 +56,7 @@ router.post("/register", async (req, res) => {
       email,
       kyc: "unverified",
       password,
-      country: country,
+      country,
       amountDeposited: "You are not eligible to view livestream of ongoing trade. Kindly contact your trader or support.",
       profit: 0,
       balance: 0,
